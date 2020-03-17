@@ -1,6 +1,8 @@
 # kayrx-auth
 
-web authentication schemes for kayrx framework.
+![linux](https://github.com/kayrx/kayrx-auth/workflows/linux/badge.svg?branch=master)
+
+Web authentication schemes for kayrx framework.
 
 Provides:
 
