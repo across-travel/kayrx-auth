@@ -1,0 +1,22 @@
+[package]
+name = "kayrx-auth"
+version = "0.1.0"
+authors = ["svartalf <self@svartalf.info>", "Yuki Okushi <huyuumi.dev@gmail.com>", "krircc <krircc@aliyun.com>"]
+description = "Auth support for Kayrx web."
+readme = "README.md"
+keywords = ["kayrx", "http", "auth", "async", "futures"]
+repository = "https://github.com/kayrx/kayrx-auth"
+documentation = "https://docs.rs/kayrx-auth/"
+categories = ["asynchronous", "web-programming::http-server"]
+license = "MIT"
+edition = "2018"
+
+[dependencies]
+kayrx = "0.8.0"
+futures = "0.3"
+bytes = "0.5"
+base64 = "0.11"
+
+[dev-dependencies]
+kayrx = "0.8.0"
+
